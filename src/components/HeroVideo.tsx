@@ -1,6 +1,6 @@
 const HeroVideo = () => {
   return (
-    <div className="w-full h-60 overflow-hidden">
+    <div className="w-full h-50 overflow-hidden">
       <video
         autoPlay
         loop
