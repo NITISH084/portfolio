@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HeroVideo from "./HeroVideo";
+import { ModeToggle } from "./ToggleButton";
 
 const ProfileHeader = () => {
   return (
@@ -22,10 +23,14 @@ const ProfileHeader = () => {
               Nitish Kumar
             </h2>
 
-            <p className="text-sm font-sans text-zinc-300">
+            <p className="text-sm font-sans">
               Curious mind, restless hands, too many ideas.
             </p>
 
+          </div>
+
+          <div className="absolute right-4 top-3">
+            <ModeToggle  />
           </div>
         </div>
       </div>
